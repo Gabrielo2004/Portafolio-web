@@ -7,18 +7,19 @@
   ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 </div>
 
-https://teclab.uct.cl/~gabriel.alonso/Portafolio%20Gabriel%20Ramirez/
+<div align="center"> https://teclab.uct.cl/~gabriel.alonso/Portafolio%20Gabriel%20Ramirez/</div>
+
 ---
 
 ## 🏗️ Estructura del Proyecto
 ```bash
 Portafolio/
 ├── assets/
-│   ├── css/       # Estilos personalizados
-│   ├── img/       # Imágenes optimizadas
-│   └── js/        # Funcionalidades
-├── index.html     # Página principal
-└── README.md      # Documentación
+│   ├── css ── styles.css/       # Estilos personalizados
+│   ├── img/                     # Imágenes optimizadas
+│   └── js ── scripts.js/        # Funcionalidades
+├── index.html                   # Página principal
+└── README.md                    # Documentación
 
 ✨ Características
 ✔️ Diseño 100% responsive
