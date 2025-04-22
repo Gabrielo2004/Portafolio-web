@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Gabriel Ramirez, desarrollador frontend especializado en JavaScript, React y diseño web responsive">
+    <meta name="keywords" content="desarrollador frontend, programador web, portafolio, HTML, CSS, JavaScript, React, Chile">
+    <meta name="author" content="Gabriel Ramirez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://tudominio.com" />
+    <title>Gabriel Ramirez | Portafolio</title>
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" class="underline-anim">Sobre mí</a></li>
+                    <li><a href="#experience" class="underline-anim">Experiencia</a></li>
+                    <li><a href="#work" class="underline-anim">Proyectos</a></li>
+                    <li><a href="#contact" class="underline-anim">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Gabriel Ramirez</h1>
+                        <h2 class="hero-subtitle">Desarrollador Frontend | Programador</h2>
+                        <a href="#contact" class="btn">Contáctame</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="asset/img/WhatsApp Image 2024-05-17 at 20.46.28.jpeg" alt="Gabriel Ramirez Desarrollador web" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Soy un desarrollador con experiencia en crear interfaces de usuario atractivas y funcionales. Me especializo en:</p>
+                        <ul class="skills-list">
+                            <li>HTML5, CSS3, JavaScript</li>
+                            <li>Responsive Design</li>
+                            <li>Git</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Experiencia</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h3>Desarrollador web</h3>
+                            <p>Experiencia en desarrollo de paginas web</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-content">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="section">
+            <div class="container">
+                <h2 class="section-title">Proyectos </h2>
+                <div class="projects-grid">
+                    <!-- Proyecto 1 -->
+                    <article class="project-card">
+                        <img src="asset/img/UmbrellaLogo.avif" alt="Proyecto 1" class="project-img">
+                        <div class="project-info">
+                            <h3>Turismo Umbrela</h3>
+                            <p>Plataforma de Turismo</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a target="_blank" href="https://turismoumbrela.onrender.com/" class="project-link underline-anim">Ver detalles →</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Proyecto 2 -->
+                    <article class="project-card">
+                        <img src="asset/img/" alt="Proyecto 2" class="project-img">
+                        <div class="project-info">
+                            <h3>Proyecto 2</h3>
+                            <p></p>
+                            <div class="project-tags">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <a target="_blank" href="#" class="project-link underline-anim">Ver detalles →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>¿Interesado en trabajar juntos?</p>
+                        <p>No dudes en contactarme:</p>
+                        <ul class="contact-list">
+                            <li><i class="fas fa-envelope"></i> gabrieloramirezbrown2980@gmail.com</li>
+                            <li><i class="fas fa-phone"></i> +569 3760 3294</li>
+                        </ul>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                        <!-- Mensaje de éxito -->
+                        <div class="modal-overlay" id="successModal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-body">
+                                    <i class="fas fa-check-circle"></i>
+                                    <h3>¡Mensaje enviado con éxito!</h3>
+                                    <p>Nos pondremos en contacto contigo pronto.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Gabrielo2004?tab=repositories" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/gabrielo_rb/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>© 2025 Gabriel Ramirez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="asset/js/scripts.js"></script>
+</body>
+</html>
